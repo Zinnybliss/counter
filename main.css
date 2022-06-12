@@ -1,0 +1,44 @@
+section{
+    background-color: rgb(194, 193, 193);
+    height: 400px;
+    width: 700px;
+    margin-left: 350px;
+    border: 1px solid black;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: rgb(92, 90, 82);
+    
+}
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 100px;
+    margin: 50px
+
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#decreaseBtn{
+margin: 20px;
+border-radius: 10%;
+background-color: red;
+font-size: 15px;
+padding: 8px;
+}
+#resetBtn{
+    border-radius: 10%;
+    margin: 20px;
+    font-size: 15px;
+    padding: 8px;
+}
+#increaseBtn{
+    margin: 20px;
+    align-content: center;
+    border-radius: 10%;
+    background-color: green;
+    font-size: 15px;
+    padding: 10px;
+}
